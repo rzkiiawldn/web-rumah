@@ -1,3 +1,6 @@
+<?php
+include "function.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,8 +20,7 @@
         <div class="row">
           <div class="col-md-4 col-sm-8 col-xs-12">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -39,7 +41,7 @@
                 <li><a href="index.php">HOME</a></li>
                 <li><a href="blog.php">BLOG</a></li>
                 <li><a href="#contact">CONTACT ME</a></li>
-                <li><a href="#">LOGIN</a></li>
+                <li><a href="#" data-toggle="modal" data-target="#login">LOGIN</a></li>
               </ul>
             </div>
           </div>
